@@ -1,0 +1,17 @@
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}  
+
+img {
+    max-width: 90%;
+    height: auto;
+  }
+
+.center {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 50px;
+  }

@@ -1,0 +1,8 @@
+version: '2.6.0' 
+
+services:
+  testing:
+    container_name: testing 
+    image: haidhi/flask-animal-classifier
+    ports:
+      - "5000:5000"
